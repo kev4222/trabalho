@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Kevin Eduardo Ribeiro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Kevin Eduardo Ribeiro</h1>
+
+  <p>Meu nome é Kevin, tenho 20 anos, moro em Santa Cruz do Sul e gosto de tecnologia, música e viagens.</p>
+
+  <ul>
+    <li>Ouvir música</li>
+    <li>Jogar videogame</li>
+    <li>Viajar</li>
+  </ul>
+
+  <img src="https://cdn.pixabay.com/photo/2016/11/22/19/20/beach-1852945_960_720.jpg" alt="Praia - viajar" width="300">
+
+  <table>
+    <tr>
+      <th>País</th>
+      <th>Imagem</th>
+    </tr>
+    <tr>
+      <td>Japão</td>
+      <td><img src="https://flagcdn.com/w320/jp.png" width="100"></td>
+    </tr>
+    <tr>
+      <td>Canadá</td>
+      <td><img src="https://flagcdn.com/w320/ca.png" width="100"></td>
+    </tr>
+    <tr>
+      <td>Itália</td>
+      <td><img src="https://flagcdn.com/w320/it.png" width="100"></td>
+    </tr>
+  </table>
+
+  <a href="https://www.tecmundo.com.br" target="_blank">Site de tecnologia que gosto</a>
+
+  <br><br>
+  <button onclick="mostrarMensagem()">Clique para ver uma mensagem!</button>
+  <p id="mensagem"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>

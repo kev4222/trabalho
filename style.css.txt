@@ -1,0 +1,36 @@
+body {
+  background-color: #e6f2ff;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+h1 {
+  color: #003366;
+  text-align: center;
+}
+p {
+  font-size: 18px;
+  text-align: justify;
+}
+ul li {
+  margin-bottom: 10px;
+}
+img {
+  border-radius: 10px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+table, th, td {
+  border: 1px solid #003366;
+  padding: 10px;
+  text-align: center;
+}
+a {
+  color: #003366;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+}
